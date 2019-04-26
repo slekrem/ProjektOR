@@ -24,40 +24,19 @@ class MyView3 extends PolymerElement {
         }
         </style>
         <p><a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/author/PolymerElements">PolymerElements</a></p>
-   
-      <div class="card">
-        <h1>paper-icon-button</h1>
-        <p><paper-icon-button icon="favorite"></paper-icon-button> &#8592 Button</p>
-      </div>
-      <div class="card">
-
-        <h1>...</h1>
-      
-      </div>
       
       <div class="card">
-
-        <h1>...</h1>
+        <div class="card">
+          <h1>paper-icon-button</h1>
+          <p><paper-icon-button icon="favorite"></paper-icon-button> &#8592 Button</p>
+        </div>
       
+        <div class="card">
+          <h1>...</h1>
+        </div>
       </div>
       
-      <div class="card">
-
-        <h1>...</h1>
-      
-      </div>
-      
-      <div class="card">
-
-        <h1>...</h1>
-      
-      </div>
-      
-      <div class="card">
-
-        <h1>...</h1>
-      
-      </div>
+ 
     `;
   }
 }
