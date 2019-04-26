@@ -8,7 +8,7 @@
  * subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
  */
 
-import { PolymerElement, html } from '@polymer/polymer';
+import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
 import './shared-styles.js';
 
 import '@polymer/paper-checkbox/paper-checkbox.js'; //paper-checkbox
@@ -25,11 +25,12 @@ import '@polymer/paper-slider/paper-slider.js'; //paper-slider added
 
 import '@polymer/paper-toggle-button/paper-toggle-button.js'; //paper-toggle-button added
 
-import '@polymer/paper-dialog/paper-dialog.js'; //paper-dialog added
-
+import '@polymer/paper-dialog/paper-dialog.js';
 import { mixinBehaviors } from '@polymer/polymer/lib/legacy/class.js';
 import { PaperDialogBehavior } from '@polymer/paper-dialog-behavior/paper-dialog-behavior.js';
-
+import '@polymer/paper-dialog-scrollable/paper-dialog-scrollable.js';
+import '@polymer/paper-fab/paper-fab.js';
+import '@polymer/iron-icon/iron-icon.js';
 
 class MyView2 extends PolymerElement {
   static get template() {
@@ -130,7 +131,116 @@ class MyView2 extends PolymerElement {
         <p><a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/collection/PolymerElements/paper-overlay-elements">PolymerElements/paper-elements/paper-overlay-elements</a></p>
         
         <div class="card">
-          <h1>paper-dialog</h1>      
+          <h1>paper-dialog</h1>          
+          
+          <h2>Option 1</h2>
+          <paper-dialog-impl>  
+            <div>Dialog body</div>
+            <div class="paper-dialog-buttons">
+              <paper-button dialog-dismiss>Cancel</paper-button>
+              <paper-button dialog-confirm>Accept</paper-button>
+            </div>
+          </paper-dialog-impl>
+
+          <h2>Option 2</h2>
+            <div class="buttons">
+              <paper-button dialog-dismiss>Cancel</paper-button>
+              <paper-button dialog-confirm autofocus>Accept</paper-button>
+            </div>
+          </paper-dialog>
+
+          <h2>Option 3</h2>
+            <paper-dialog entry-animation="scale-up-animation"
+                          exit-animation="fade-out-animation">
+              <h2>Header</h2>
+              <div>Dialog body</div>
+            </paper-dialog>
+<!--
+          <paper-dialog id="scrolling">
+            <h2>Scrolling</h2>
+            <paper-dialog-scrollable>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </paper-dialog-scrollable>
+            <div class="buttons">
+              <paper-button dialog-dismiss>Cancel</paper-button>
+              <paper-button dialog-confirm autofocus>OK</paper-button>
+            </div>
+          </paper-dialog>
+
+          <paper-dialog id="actions">
+            <h2>Dialog Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="buttons">
+              <paper-button>More Info...</paper-button>
+              <paper-button dialog-dismiss>Decline</paper-button>
+              <paper-button dialog-confirm autofocus>Accept</paper-button>
+            </div>
+          </paper-dialog>
+
+          <paper-dialog id="modal" modal>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="buttons">
+              <paper-button dialog-confirm autofocus>Tap me to close</paper-button>
+            </div>
+          </paper-dialog>
+
+          <paper-dialog id="dropdownDialog">
+            <h2>Dialog Title</h2>
+            <paper-dropdown-menu-light label="Value">
+              <!--
+                support hybrid mode: 
+                paper-dropdown-menu-light 1.x distributes via <content select=".dropdown-content">
+                paper-dropdown-menu-light 2.x distributes via <slot name="dropdown-content">
+              --
+--> 
+                          
+<!--
+              <paper-listbox class="dropdown-content" slot="dropdown-content">
+                <paper-item>1</paper-item>
+                <paper-item>2</paper-item>
+                <paper-item>3</paper-item>
+                <paper-item>4</paper-item>
+                <paper-item>5</paper-item>
+                <paper-item>6</paper-item>
+                <paper-item>7</paper-item>
+                <paper-item>8</paper-item>
+                <paper-item>9</paper-item>
+                <paper-item>10</paper-item>
+              </paper-listbox>
+            </paper-dropdown-menu-light>
+          </paper-dialog>
+
+          <paper-dialog id="nested">
+            <h2>Dialog Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="buttons">
+              <paper-button onclick="innerDialog.open()">Open nested dialog</paper-button>
+            </div>
+          </paper-dialog>
+
+          <paper-dialog id="innerDialog">
+            <h2>Dialog Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </paper-dialog>
+-->
+
         </div>
 
         <div class="card">
