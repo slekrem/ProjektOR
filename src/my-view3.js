@@ -23,20 +23,34 @@ class MyView3 extends PolymerElement {
           padding: 10px;
         }
         </style>
-        <p><a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/author/PolymerElements">PolymerElements</a></p>
+        <p><a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/collection/PolymerElements/iron-elements">PolymerElements/iron-elements</a></p>
       
-      <div class="card">
+      <div class="card">  <!--iron-behaviors-collection Start-->
+        <h1>iron-behaviors-collection</h1>
+        <p><a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/collection/PolymerElements/iron-behaviors-collection">.../iron-behaviors-collection</a></p> 
+      
         <div class="card">
-          <h1>paper-icon-button</h1>
-          <p><paper-icon-button icon="favorite"></paper-icon-button> &#8592 Button</p>
-        </div>
-      
+          <h1>IronMenuBehavior & IronMenubarBehavior</h1>  <!--#Start-->
+          
+          <style>
+        :host > ::slotted(*) {
+          display: block;
+        }
+ 
+        :host > ::slotted(.iron-selected) {
+          color: white;
+          background-color: var(--google-blue-500);
+        }
+      </style> 
+ 
+      <slot></slot>
+
+        </div>  <!--#Ende-->
+
         <div class="card">
           <h1>...</h1>
         </div>
-      </div>
-      
- 
+      </div> <!--iron-behaviors-collection Ende-->
     `;
   }
 }
