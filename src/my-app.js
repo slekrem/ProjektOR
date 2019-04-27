@@ -101,7 +101,11 @@ class MyApp extends PolymerElement {
           <app-header slot="header" condenses="" reveals="" effects="waterfall">
             <app-toolbar>
               <paper-icon-button icon="my-icons:menu" drawer-toggle=""></paper-icon-button>
-              <div main-title="">POLYMER 3 - ProjektOR</div>
+              <div main-title="">POLYMER 3 - ProjektOR &#x2192</div>
+              <div style="padding-right: 40%">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/YlloNieR/ProjektOR">
+                <img src="images/show-on-github.ico" width=23% height=23% alt="link2github"></a>
+              </div>
             </app-toolbar>
           </app-header>
 
