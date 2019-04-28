@@ -23,15 +23,22 @@ class MyView3 extends PolymerElement {
           padding: 10px;
         }
         </style>
-        <p><a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/collection/PolymerElements/iron-elements">PolymerElements/iron-elements</a></p>
+        <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> <a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/collection/PolymerElements/iron-elements">PolymerElements/iron-elements</a></h1>
       
       <div class="card">  <!--iron-behaviors-collection Start-->
-        <h1>iron-behaviors-collection</h1>
+        <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-behaviors-collection</h1>
         <p><a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/collection/PolymerElements/iron-behaviors-collection">.../iron-behaviors-collection</a></p> 
       
         <div class="card">
-          <h1>IronMenuBehavior & IronMenubarBehavior</h1>  <!--#Start-->
-          
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> IronMenuBehavior & IronMenubarBehavior</h1>
+          <!--#Bearbeitung Start-->
+
+          <img src="images/working-in-progress.png" width=260px height=160px alt="working-in-progress">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/YlloNieR/ProjektOR/issues/1"><br>
+          <img src="images/show-on-issue-github.png" hspace="30" width=200px height=100px alt="show-on-issue-github">
+          <h3 style="text-indent:80px" font face="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol">
+          issue: #1</h3></a>
+
           <style>
         :host > ::slotted(*) {
           display: block;
@@ -45,12 +52,241 @@ class MyView3 extends PolymerElement {
  
       <slot></slot>
 
-        </div>  <!--#Ende-->
+        </div>  
+        <!--#Bearbeitung Ende-->
 
         <div class="card">
-          <h1>...</h1>
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-overlay-behavior</h1>
+          <p>Bearbeitung s.a.</p>
         </div>
+        
+        <div class="card"></h1>      
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-range-behavior</h1>
+          <p>Bearbeitung s.a.</p>
+        </div>
+
+        <div class="card">
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-resizable-behavior</h1>
+          <p>Bearbeitung s.a.</p>
+        </div> 
+          
+        <div class="card">
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-scroll-target-behavior</h1>
+          <p>Bearbeitung s.a.</p>
+        </div>
+          
+        <div class="card">
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-scroll-threshold</h1>
+          <p>Bearbeitung s.a.</p>
+        </div>
+        
       </div> <!--iron-behaviors-collection Ende-->
+      
+      <div class="card"> <!--iron-input-elements Start-->
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-input-elements</h1>
+          <p><a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/collection/PolymerElements/iron-input-elements">.../iron-input-elements</a></p>
+
+          <div class="card">
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-checked-element-behavior</h1>
+          <p>Bearbeitung s.a.</p>          
+          </div>
+
+          <div class="card">
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-dropdown</h1>
+          <p>Bearbeitung s.a.</p>          
+          </div>
+
+          <div class="card">
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-form</h1>
+          <p>Bearbeitung s.a.</p>          
+          </div>
+
+          <div class="card">
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-form-element-behavior</h1>
+          <p>Bearbeitung s.a.</p>          
+          </div>
+
+          <div class="card">
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-input</h1>
+          <p>Bearbeitung s.a.</p>          
+          </div>
+
+          <div class="card">
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-label</h1>
+          <p>Bearbeitung s.a.</p>         
+          </div>
+
+          <div class="card">
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-validatable-behavior</h1>
+          <p>Bearbeitung s.a.</p>          
+          </div>
+
+        </div> <!--iron-input-elements Ende-->
+
+        <div class="card"> <!--iron-behaviors-collection Start-->
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-behaviors-collection</h1>
+          <p><a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/collection/PolymerElements/iron-behaviors-collection">.../iron-behaviors-collection</a></p>
+          
+          <div class="card">           
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-validatable-behavior</h1>
+          <p>Bearbeitung s.a.</p> 
+          </div>
+
+          <div class="card"> 
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-overlay-behavior</h1>
+          <p>Bearbeitung s.a.</p> 
+          </div>
+
+          <div class="card"> 
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-range-behavior</h1>
+          <p>Bearbeitung s.a.</p> 
+          </div>
+
+          <div class="card"> 
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-resizable-behavior</h1>
+          <p>Bearbeitung s.a.</p> 
+          </div>
+
+          <div class="card"> 
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-scroll-target-behavior</h1>
+          <p>Bearbeitung s.a.</p> 
+          </div>
+
+          <div class="card"> 
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-scroll-threshold</h1>
+          <p>Bearbeitung s.a.</p> 
+          </div>
+          
+        </div> <!--iron-behaviors-collection Ende-->
+
+        <!--Einzelne Core Elemente Start-->
+        <p><a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/collection/PolymerElements/iron-elements">PolymerElements/iron-elements</a></p>
+
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-a11y-announcer</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-a11y-keys</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-ajax</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-autogrow-textarea</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-behaviors</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-collapse</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-component-page</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+        
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-demo-helpers</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+        
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-doc-viewer</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+        
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-dropdown</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+        
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-fit-behavior</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+        
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-flex-layout</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+        
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-icon</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-icons</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+        
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-iconset</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-iconset-svg</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+        
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-image</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+                
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-jsonp-library</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+                
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-list</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+                
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-location</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+                
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-media-query</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+                
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-overlay-behavior</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+                
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-pages</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-swipeable-container</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>
+
+        <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> iron-test-helpers</h1>
+            <p>Bearbeitung s.a.</p> 
+        </div>         
+        <!--Einzelne Core Elemente Ende-->
     `;
   }
 }

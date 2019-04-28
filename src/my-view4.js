@@ -21,36 +21,71 @@ class MyView4 extends PolymerElement {
           padding: 10px;
         }
       </style>
-      <p><a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/author/PolymerElements">PolymerElements</a></p>
-      <div class="card">
+      <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> <a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/collection/PolymerElements/paper-ui-elements">PolymerElements/paper-ui-elements</a></h1>
+      <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-badge</h1>
+            <p>Bearbeitung s.a.</p> 
+      </div>
 
-        <h1>...</h1>
-      
+      <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-button</h1>
+            <p>Bearbeitung s.a.</p> 
+      </div>
+
+      <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-card</h1>
+            <p>Bearbeitung s.a.</p> 
+      </div>
+
+      <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-dropdown-menu</h1>
+            <p>Bearbeitung s.a.</p> 
+      </div>
+
+      <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-icon-button</h1>
+            <p>Bearbeitung s.a.</p> 
       </div>
       
-      <div class="card">
-
-        <h1>...</h1>
-      
+      <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-item</h1>
+            <p>Bearbeitung s.a.</p> 
       </div>
       
-      <div class="card">
-
-        <h1>...</h1>
-      
+      <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-menu-button</h1>
+            <p>Bearbeitung s.a.</p> 
       </div>
       
-      <div class="card">
-
-        <h1>...</h1>
-      
+      <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-progress</h1>
+            <p>Bearbeitung s.a.</p> 
       </div>
-      
-      <div class="card">
-
-        <h1>...</h1>
-      
+            
+      <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-spinner</h1>
+            <p>Bearbeitung s.a.</p> 
       </div>
+            
+      <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-swatch-picker</h1>
+            <p>Bearbeitung s.a.</p> 
+      </div>
+                  
+      <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-tabs</h1>
+            <p>Bearbeitung s.a.</p> 
+      </div>
+                  
+      <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-toolbar</h1>
+            <p>Bearbeitung s.a.</p> 
+      </div>
+                        
+      <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-tooltip</h1>
+            <p>Bearbeitung s.a.</p> 
+      </div>      
     `;
   }
 }

@@ -22,6 +22,8 @@ class MyView1 extends PolymerElement {
         }
       </style>
 
+      <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> <a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/author/PolymerElements">PolymerElements</a></h1>
+      <h1><img src="images/material-design-logo.svg" alt="SVG mit img Tag laden" width="20" height="20"> <a target="_blank" rel="noopener noreferrer" href="https://material.io/design/">Material Design</a></h1>
       <div class="card">
         <div class="circle">1</div>
 

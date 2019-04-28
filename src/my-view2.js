@@ -42,12 +42,12 @@ class MyView2 extends PolymerElement {
           padding: 10px;
         }
       </style>
-      <p><a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/collection/PolymerElements/paper-elements">PolymerElements/paper-elements</a></p>
+      <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> <a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/collection/PolymerElements/paper-elements">PolymerElements/paper-elements</a></h1>
 
       <!--paper-input-elements-->
 
       <div class="card">
-        <h1>paper-input-elements</h1>
+        <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-input-elements</h1>
         <p><a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/collection/PolymerElements/paper-input-elements">PolymerElements/paper-elements/paper-input-elements</a></p>
         
         <div class="card">
@@ -58,7 +58,7 @@ class MyView2 extends PolymerElement {
         </div>
 
         <div class="card">
-          <h1>paper-dropdown-menu</h1>
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-dropdown-menu</h1>
            <paper-dropdown-menu label="Dinosaurs">
            <paper-listbox slot="dropdown-content" class="dropdown-content">
             <paper-item>allosaurus</paper-item>
@@ -70,12 +70,12 @@ class MyView2 extends PolymerElement {
         </div>
 
         <div class="card">
-          <h1>paper-input</h1>
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-input</h1>
           <paper-input always-float-label label="Floating label"></paper-input>
         </div>
 
         <div class="card">
-          <h1>paper-listbox </h1>
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-listbox </h1>
           <paper-listbox>
             <paper-item>Item 1</paper-item>
               <paper-item>Item 2</paper-item>
@@ -93,14 +93,14 @@ class MyView2 extends PolymerElement {
         </div>
           
         <div class="card">
-          <h1>paper-radio-button</h1>
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-radio-button</h1>
           <paper-radio-button>Unchecked</paper-radio-button>
           <paper-radio-button checked>Checked</paper-radio-button>
           <paper-radio-button disabled>Disabled</paper-radio-button>
         </div>
           
         <div class="card">
-          <h1>paper-radio-group</h1>
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-radio-group</h1>
           <paper-radio-group selected="small">
             <paper-radio-button name="small">Small</paper-radio-button>
             <paper-radio-button name="medium">Medium</paper-radio-button>
@@ -109,7 +109,7 @@ class MyView2 extends PolymerElement {
         </div>
           
         <div class="card">
-          <h1>paper-slider</h1>
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-slider</h1>
           <paper-slider
             value="183"
             max="255"
@@ -119,7 +119,7 @@ class MyView2 extends PolymerElement {
         </div>
 
         <div class="card">
-          <h1>paper-toggle-button</h1>
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-toggle-button</h1>
           <paper-toggle-button checked></paper-toggle-button>
           <paper-toggle-button disabled></paper-toggle-button>
         </div>
@@ -127,12 +127,14 @@ class MyView2 extends PolymerElement {
 
       <!--paper-overlay-elements Start-->
       <div class="card">
-        <h1>paper-overlay-elements</h1>
+        <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-overlay-elements</h1>
         <p><a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/collection/PolymerElements/paper-overlay-elements">PolymerElements/paper-elements/paper-overlay-elements</a></p>
         
         <div class="card">
-          <h1>paper-dialog</h1>          
-          
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-dialog</h1>   
+
+          <img src="images/working-in-progress.png" width=15% height=15% alt="working-in-progress">
+
           <h2>Option 1</h2>
           <paper-dialog-impl>  
             <div>Dialog body</div>
@@ -244,15 +246,18 @@ class MyView2 extends PolymerElement {
         </div>
 
         <div class="card">
-          <h1>paper-dialog-behavior</h1>            
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-dialog-behavior</h1>
+          <p>Bearbeitung s.a.</p>            
         </div>
         
         <div class="card">
-          <h1>paper-dialog-scrollable</h1>        
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-dialog-scrollable</h1> 
+          <p>Bearbeitung s.a.</p>       
         </div>
         
         <div class="card">
-          <h1>paper-fab</h1>        
+          <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> paper-fab</h1>
+          <p>Bearbeitung s.a.</p>        
         </div>
       </div> <!--paper-overlay-elements Ende-->
     `;

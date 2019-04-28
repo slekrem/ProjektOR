@@ -22,39 +22,13 @@ class MyView5 extends PolymerElement {
           padding: 10px;
         }
       </style>
+      <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> <a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/collection/PolymerElements/platinum-elements">PolymerElements/platinum-elements</a></h1>
 
-      <p><a target="_blank" rel="noopener noreferrer" href="https://www.webcomponents.org/author/PolymerElements">PolymerElements</a></p>
-
-      <div class="card">
-
-        <h1>...</h1>
-      
+      <div class="card"> 
+            <h1><img src="images/manifest/icon-30x30.png"  width=20px height=20px alt="P.M.D."> platinum-sw</h1>
+            <p>Bearbeitung s.a.</p> 
       </div>
-      
-      <div class="card">
 
-        <h1>...</h1>
-      
-      </div>
-      
-      <div class="card">
-
-        <h1>...</h1>
-      
-      </div>
-      
-      <div class="card">
-
-        <h1>...</h1>
-      
-      </div>
-      
-      <div class="card">
-
-        <h1>...</h1>
-      
-      </div>
-       
     `;
   }
 }

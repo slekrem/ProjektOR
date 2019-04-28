@@ -86,11 +86,11 @@ class MyApp extends PolymerElement {
         <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
           <app-toolbar>Übersicht</app-toolbar>
           <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
-            <a name="view1" href="[[rootPath]]view1">1 Hilfe</a>
-            <a name="view2" href="[[rootPath]]view2">2 paper-elements</a>
-            <a name="view3" href="[[rootPath]]view3">3 iron-elements</a>
-            <a name="view4" href="[[rootPath]]view4">4 paper-ui-elements</a>
-            <a name="view5" href="[[rootPath]]view5">5 platinum-elements</a>
+            <a name="view1" href="[[rootPath]]view1"><img src="images/help.ico" width=18px height=18px alt="H"> 1 Hilfe</a>
+            <a name="view2" href="[[rootPath]]view2"><img src="images/manifest/icon-30x30.png" width=15px height=15px alt="P.M.D."> 2 paper-elements</a>
+            <a name="view3" href="[[rootPath]]view3"><img src="images/manifest/icon-30x30.png" width=15px height=15px alt="P.M.D."> 3 iron-elements</a>
+            <a name="view4" href="[[rootPath]]view4"><img src="images/manifest/icon-30x30.png" width=15px height=15px alt="P.M.D."> 4 paper-ui-elements</a>
+            <a name="view5" href="[[rootPath]]view5"><img src="images/manifest/icon-30x30.png" width=15px height=15px alt="P.M.D."> 5 platinum-elements</a>
 
           </iron-selector>
         </app-drawer>
