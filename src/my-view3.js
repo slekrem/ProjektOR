@@ -11,7 +11,7 @@
 import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
 import './shared-styles.js';
 
-import '@polymer/paper-icon-button/paper-icon-button.js';
+import '@polymer/paper-icon-button/paper-icon-button.js'; //paper-icon-button added
 
 class MyView3 extends PolymerElement {
   static get template() {

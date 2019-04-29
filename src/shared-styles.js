@@ -40,6 +40,13 @@ $_documentContainer.innerHTML = `<dom-module id="shared-styles">
         color: #212121;
         font-size: 22px;
       }
+
+/*added by me*/
+
+      .flex-container {
+        display:inline-flex
+      }
+
     </style>
   </template>
 </dom-module>`;

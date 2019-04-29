@@ -11,7 +11,7 @@
 import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
 import './shared-styles.js';
 
-import '@polymer/paper-checkbox/paper-checkbox.js'; //paper-checkbox
+import '@polymer/paper-checkbox/paper-checkbox.js'; //paper-checkbox added
 import '@polymer/paper-dropdown-menu/paper-dropdown-menu.js'; //paper-dropdown-menu added
 import '@polymer/paper-item/paper-item.js'; //paper-dropdown-menu added
 import '@polymer/paper-listbox/paper-listbox.js'; //paper-dropdown-menu added & paper-listbox added
