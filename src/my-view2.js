@@ -136,13 +136,15 @@ class MyView2 extends PolymerElement {
           <img src="images/working-in-progress.png" width=15% height=15% alt="working-in-progress">
 
           <h2>Option 1</h2>
-          <paper-dialog-impl>  
+          <paper-dialog id="pd-option-1">  
             <div>Dialog body</div>
             <div class="paper-dialog-buttons">
               <paper-button dialog-dismiss>Cancel</paper-button>
               <paper-button dialog-confirm>Accept</paper-button>
             </div>
-          </paper-dialog-impl>
+          </paper-dialog>
+
+          <button on-click="_onOpenOption1Click">Open Option 1</button>
 
           <h2>Option 2</h2>
             <div class="buttons">
@@ -260,7 +262,14 @@ class MyView2 extends PolymerElement {
           <p>Bearbeitung s.a.</p>        
         </div>
       </div> <!--paper-overlay-elements Ende-->
+
+      
     `;
+  }
+
+  _onOpenOption1Click() {
+    const dialog = this.shadowRoot.querySelector('#pd-option-1');
+    dialog.open();
   }
 }
 
